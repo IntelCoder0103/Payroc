@@ -1,0 +1,18 @@
+.ingredient-thumb {
+  .MuiImageListItemBar-root {
+    transition-duration: .5s;
+    opacity: 0;
+    height: 0;
+  }
+
+  &:hover {
+    .MuiImageListItemBar-root {
+      opacity: 1;
+      height: auto;
+    }
+  }
+}
+
+.ingredient-search{
+  
+}
