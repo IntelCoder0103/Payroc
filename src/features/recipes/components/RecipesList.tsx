@@ -13,7 +13,7 @@ export default function RecipesList(props: IRecipesListProps) {
   
   return (
     <div>
-      <ImageList cols={isMobile? 1: 3} gap={12} variant='masonry'>
+      <ImageList cols={isMobile? 1: 3} gap={12}>
         {recipes.map((r) => (
           <RecipeItem recipeThumb={r}/>
         ))}

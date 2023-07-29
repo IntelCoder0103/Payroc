@@ -45,13 +45,13 @@ export default function IngredientsList(props: IIngredientsListProps) {
   };
 
   return (
-    <div className="">
-      <AppBar position="static" color="transparent" elevation={1}>
+    <div className="ingredients-list">
+      <AppBar position="static" color="primary" elevation={1}>
         <Toolbar>
-          <Typography variant="h5" color="secondary">
+          <Typography variant="h5">
             Ingredients
           </Typography>
-          <div className="ml-auto">
+          <div className="ml-auto mr-3">
             <IngredientsSearch />
           </div>
         </Toolbar>

@@ -1,7 +1,4 @@
 import { useState } from "react";
-import reactLogo from "@/assets/react.svg";
-import viteLogo from "@/assets/vite.svg";
-import Tasks from "@/features/tasks";
 import Button from '@mui/material/Button';
 import IngredientsList from "@/features/ingredients/components/IngredientsList";
 import CategorySelector from "@/features/categories/components/categorySelector";
